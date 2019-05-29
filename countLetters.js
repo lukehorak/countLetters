@@ -1,5 +1,5 @@
 function countLetters(phrase){
-  const stripped = phrase.replace(' ', '');
+  const stripped = phrase.replaceAll(/ /g, '');
 
   let results = {}
 
